@@ -1,0 +1,1 @@
+eda29124787b26df0f3f24c996b6f56f13b885438b18bb543d3bceecbc947d48  gecko_party_marketplace.wasm
