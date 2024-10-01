@@ -156,7 +156,7 @@ An NFT owner can send a trade request to a listed NFT by sending their NFT to th
 
 ```typescript
 import { toBase64, toUtf8 } from "@cosmjs/encoding"
-const listEncodedMsg = toBase64(toUtf8(JSON.stringify({
+const tradeEncodedMsg = toBase64(toUtf8(JSON.stringify({
     new_trade: {target: askedTokenId.toString()},
  })))
 
